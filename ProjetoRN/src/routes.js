@@ -13,7 +13,7 @@ const Drawer = createDrawerNavigator();
 export default function Routes() {
     return (
         <NavigationContainer>
-            <Drawer.Navigator initialRouteName="Movies">
+            <Drawer.Navigator initialRouteName="Home">
                 <Drawer.Screen name="Home" component={Home} />
                 <Drawer.Screen name="Profile" component={Profile} />
                 <Drawer.Screen name="Movies" component={Movies} />

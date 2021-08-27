@@ -14,8 +14,8 @@ export default function Profile() {
         },
         {
             id: 2,
-            name: 'Gustavo Damiani Melo de Souza Duarte',
-            photo: require('../../../assets/profile/gustavo.jpg'),
+            name: 'Felipe Eduardo Miranda de Oliveira',
+            photo: require('../../../assets/profile/20210812_110126.jpg'),
         }
     ])
     return (

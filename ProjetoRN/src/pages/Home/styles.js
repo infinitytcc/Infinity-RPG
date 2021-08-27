@@ -5,23 +5,24 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: '#1a1a1a',
     },
     box: {
         width: 220,
         height: 250,
         padding: 25,
-        backgroundColor: '#C656E0',
+        backgroundColor: 'black',
         borderRadius: 6,
     },
     header: {
-        backgroundColor: '#F6B5EE',
+        backgroundColor: 'white',
         padding: 2,
         borderRadius: 6,
     },
     headerText: {
         textAlign: 'center',
         fontSize: 18,
-        color: '#C656E0',
+        color: 'black',
         fontWeight: 'bold',
     },
     main: {
@@ -33,6 +34,15 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         textAlign: 'center',
         fontSize: 16,
+    },
+    bold: {
+        color: '#FFFFFF',
+        textAlign: 'center',
+        fontSize: 16,
+        fontWeight: "bold",
+    },
+    b: {
+        width:500,
     }
 });
 
